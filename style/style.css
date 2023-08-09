@@ -3,12 +3,24 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
+    height: 330px;
     width: 100%;
 }
 
+.main-image{
+    background-image: url("../images/Overwatch-2-review-header.webp");
+    height: 1000px;
+    width: 1332px;
+    background-repeat: no-repeat;
+}
 
 body{
     background-color: black;
 
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
 }
