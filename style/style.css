@@ -8,6 +8,7 @@
 }
 
 .main-image{
+    grid-area: auto;
     background-image: url("../images/Overwatch-2-review-header.webp");
     height: 1000px;
     width: 1332px;
@@ -21,6 +22,10 @@ body{
 
 .container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     color: white;
+}
+
+.introduction{
+    
 }
