@@ -1,3 +1,9 @@
+img{
+    width: 100%;
+
+}
+
+
 .hero-image{
     background-image: url("../images/download.png");
     background-position: center;
@@ -26,6 +32,34 @@ body{
     color: white;
 }
 
-.introduction{
-    
+
+
+.character{
+    grid-area: 1;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.team-comp{
+    background-image: url("../images/images.jpg");
+    grid-area: 1;
+
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.map{
+    grid-area: 1;
+    width: 100%;
+    background-image: url("../images/download.jpg");
+    background-repeat: no-repeat;
+}
+
+
+.container-2{
+    margin: 100px;
+    gap: 150px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    color: white;
 }
