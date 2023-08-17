@@ -3,6 +3,10 @@ img{
 
 }
 
+.introduction{
+    position: relative;
+    right: 100px;
+}
 
 .hero-image{
     background-image: url("../images/download.png");
@@ -16,7 +20,7 @@ img{
 .main-image{
     grid-area: auto;
     background-image: url("../images/Overwatch-2-review-header.webp");
-    height: 1000px;
+    height: 700px;
     width: 1332px;
     background-repeat: no-repeat;
 }
